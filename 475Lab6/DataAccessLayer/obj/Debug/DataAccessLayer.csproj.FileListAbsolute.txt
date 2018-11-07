@@ -76,3 +76,17 @@ C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\L
 C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
 C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Bryson Sherman\Documents\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

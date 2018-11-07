@@ -10,6 +10,99 @@ namespace _475Lab6
 {
     public class Program
     {
+        static void Add(BusinessLayer.BusinessLayer myBusinessLayer, LayerType layerType)
+        {
+
+            Console.WriteLine("Name:");
+            string Name = Console.ReadLine();
+            switch (layerType)
+            { 
+                
+                case LayerType.COURSE:
+                    Console.WriteLine("Teacher Id:");
+                    int Id = Int32.Parse(Console.ReadLine());
+                    Course newCourse = new Course() { CourseName = Name, TeacherId = Id };
+                    myBusinessLayer.AddCourse(newCourse);
+                    Console.WriteLine("Course: " + Name + " created.");
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        static void Update(BusinessLayer.BusinessLayer myBusinessLayer, LayerType layerType)
+        {
+
+            switch (layerType)
+            {
+                
+                case LayerType.COURSE:
+                    foreach (var s in myBusinessLayer.GetAllCourses())
+                    {
+                        Console.WriteLine(s.CourseId + " " + s.CourseName);
+                    }
+                    Console.WriteLine("Enter Course ID: ");
+                    int NameCourse = Int32.Parse(Console.ReadLine());
+                    int choice = -1;
+                    Console.WriteLine
+                                      (
+                                      "\n 0. Update Name \n " +
+                                      "1. Update Teacher \n "
+                                      );
+                    try
+                    {
+                        choice = Int32.Parse(Console.ReadLine());
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Selection invalid\n");
+                    }
+                    switch (choice)
+                    {
+                        case 0:
+                            Console.WriteLine("Enter New Name For Course: ");
+                            myBusinessLayer.GetCourseByID(NameCourse).CourseName = Console.ReadLine();
+                            myBusinessLayer.UpdateCourse(myBusinessLayer.GetCourseByID(NameCourse));
+                            Console.WriteLine("Course name has been updated to: " + myBusinessLayer.GetCourseByID(NameCourse).CourseName);
+                            break;
+                        case 1:
+                            Console.WriteLine("Enter New Teacher Id For Course: ");
+                            myBusinessLayer.GetCourseByID(NameCourse).TeacherId = Int32.Parse(Console.ReadLine());
+                            myBusinessLayer.UpdateCourse(myBusinessLayer.GetCourseByID(NameCourse));
+                            Console.WriteLine("Course teacher id has been updated to: " + myBusinessLayer.GetCourseByID(NameCourse).TeacherId);
+                            break;
+                        default:
+                            break;
+                    }
+
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        static void Delete(BusinessLayer.BusinessLayer myBusinessLayer, LayerType layerType)
+        {
+
+            Console.WriteLine("Id to delete:");
+            int Id = Int32.Parse(Console.ReadLine());
+            switch (layerType)
+            {
+                
+                case LayerType.COURSE:
+                    if (myBusinessLayer.GetCourseByID(Id) == null)
+                        Console.WriteLine("No Course by that ID or Name was found. Returning to main menu");
+                    else
+                    {
+                        Console.WriteLine("Course: " + myBusinessLayer.GetCourseByID(Id).CourseName + " has been deleted");
+                        myBusinessLayer.RemoveCourse(myBusinessLayer.GetCourseByID(Id));
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+
         static void Main(string[] args)
         {
             int choice = -1;
@@ -37,37 +130,21 @@ namespace _475Lab6
                     Console.WriteLine("Selection invalid\n");
                 }
 
-                BusinessLayer myBusinessLayer = new BusinessLayer();
+                BusinessLayer.BusinessLayer myBusinessLayer = new BusinessLayer.BusinessLayer();
 
                 switch (choice)
                 {
                     case 0:
                         Environment.Exit(0);
                         break;
-                    case 1:
-                        Add(myBusinessLayer, LayerType.TEACHER);
-                        break;
-                    case 2:
-                        Update(myBusinessLayer, LayerType.TEACHER);
-                        break;
-                    case 3:
-                        Delete(myBusinessLayer, LayerType.TEACHER);
-                        break;
+
                     case 4:
                         foreach (var t in myBusinessLayer.GetAllTeachers())
                         {
-                            Console.WriteLine(t.TeacherId + " " + t.TeacherName + " " + t.Description);
+                            Console.WriteLine(t.TeacherId + " " + t.TeacherName);
                         }
                         break;
-                    case 5:
-                        Console.WriteLine("Teacher Id:");
-                        int Id = Int32.Parse(Console.ReadLine());
-                        var coursePrint = myBusinessLayer.getAllCourses().Where(t => t.TeacherId == Id);
-                        foreach (var course in coursePrint)
-                        {
-                            Console.WriteLine(course.StudentID + " " + course.StudentName + " ");
-                        }
-                        break;
+
                     case 6:
                         Add(myBusinessLayer, LayerType.COURSE);
                         break;
@@ -78,9 +155,9 @@ namespace _475Lab6
                         Delete(myBusinessLayer, LayerType.COURSE);
                         break;
                     case 9:
-                        foreach (var c in myBusinessLayer.getAllCourses())
+                        foreach (var c in myBusinessLayer.GetAllCourses())
                         {
-                            Console.WriteLine(c.CourseID + " " + c.CourseName);
+                            Console.WriteLine(c.CourseId + " " + c.CourseName);
                         }
                         break;
 

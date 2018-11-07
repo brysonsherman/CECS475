@@ -56,3 +56,23 @@ C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug
 /Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csproj.CopyComplete
 /Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.exe
 /Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.exe.config
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.exe
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.exe
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Bryson Sherman\Documents\475Lab6\BusinessLayer\bin\Debug\Microsoft.SqlServer.Types.dll

@@ -158,6 +158,16 @@ namespace BusinessLayer
             _courseRepository.Delete(Course);
         }
 
+        public IList<Student> getAllStudents()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Teacher> getAllTeachers()
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
     }
 }

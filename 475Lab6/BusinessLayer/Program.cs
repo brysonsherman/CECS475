@@ -10,7 +10,6 @@ namespace BusinessLayer
     {
         static void Main(string[] args)
         {
-            Console.Out.WriteLine("Business Layer");
 
         }
     }
