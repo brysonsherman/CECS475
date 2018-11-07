@@ -24,17 +24,55 @@ C:\cecs475sp18\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResol
 C:\cecs475sp18\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\cecs475sp18\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
 C:\cecs475sp18\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\SchoolDB.mdf
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.exe
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.dll
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.xml
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.exe
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\001 SCHOOL\2018 aSPRING\CECS 475\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Aimee\Documents\Visual Studio 2017\CECS 475\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Aimee\Documents\GitKraken\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+C:\Users\Helidia\Documents\CSULB\475 - Programing With Frameowrks\CECS475_Lab6\Lab6 - Teacher\Assignment5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

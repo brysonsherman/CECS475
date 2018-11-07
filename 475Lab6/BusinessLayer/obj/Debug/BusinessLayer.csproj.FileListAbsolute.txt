@@ -1,43 +1,58 @@
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\SchoolDB.mdf
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\SchoolDB_log.ldf
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.exe.config
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.exe
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.exe
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\EntityFramework.dll
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.exe.config
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\bin\Debug\EntityFramework.xml
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.exe
-C:\Users\Matthew\Documents\GitHub\CECS475-Assignment5\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.pdb
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\SchoolDB.mdf
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\SchoolDB_log.ldf
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.exe.config
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.exe
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.exe
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\EntityFramework.dll
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.pdb
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\DataAccessLayer.exe.config
-C:\cecs475sp18\Assignment5\BusinessLayer\bin\Debug\EntityFramework.xml
-C:\cecs475sp18\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
-C:\cecs475sp18\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
-C:\cecs475sp18\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.exe
-C:\cecs475sp18\Assignment5\BusinessLayer\obj\Debug\BusinessLayer.pdb
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\SchoolDB.mdf
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\SchoolDB_log.ldf
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.exe.config
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.exe
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.exe
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\EntityFramework.dll
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.pdb
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\DataAccessLayer.exe.config
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\bin\Debug\EntityFramework.xml
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.exe
-C:\Users\Christian\Documents\475\Lab Assignments\475Lab6\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/SchoolDB.mdf
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/SchoolDB_log.ldf
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.exe.config
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.exe
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.pdb
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.exe
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/EntityFramework.dll
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.pdb
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.exe.config
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/bin/Debug/EntityFramework.xml
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.csprojResolveAssemblyReference.cache
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.csproj.CoreCompileInputs.cache
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.exe
+C:/Users/Matthew/Documents/GitHub/CECS475-Assignment5/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.pdb
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/SchoolDB.mdf
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/SchoolDB_log.ldf
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.exe.config
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.exe
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/BusinessLayer.pdb
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.exe
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/EntityFramework.dll
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.pdb
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/DataAccessLayer.exe.config
+C:/cecs475sp18/Assignment5/BusinessLayer/bin/Debug/EntityFramework.xml
+C:/cecs475sp18/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.csprojResolveAssemblyReference.cache
+C:/cecs475sp18/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.csproj.CoreCompileInputs.cache
+C:/cecs475sp18/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.exe
+C:/cecs475sp18/Assignment5/BusinessLayer/obj/Debug/BusinessLayer.pdb
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/SchoolDB.mdf
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/SchoolDB_log.ldf
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.exe.config
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.exe
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.pdb
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.exe
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/EntityFramework.dll
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.pdb
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.exe.config
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/bin/Debug/EntityFramework.xml
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csprojAssemblyReference.cache
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csproj.CoreCompileInputs.cache
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csproj.CopyComplete
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.exe
+C:/Users/Christian/Documents/475/Lab Assignments/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.pdb
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/SchoolDB.mdf
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/SchoolDB_log.ldf
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.exe.config
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.exe
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/BusinessLayer.pdb
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.exe
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/EntityFramework.dll
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.pdb
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/DataAccessLayer.exe.config
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/bin/Debug/EntityFramework.xml
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csprojAssemblyReference.cache
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csproj.CoreCompileInputs.cache
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.csproj.CopyComplete
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.exe
+/Users/bryson.sherman/Documents/CECS475/CECS475/475Lab6/BusinessLayer/obj/Debug/BusinessLayer.pdb

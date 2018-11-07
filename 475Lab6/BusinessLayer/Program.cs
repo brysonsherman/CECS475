@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
@@ -10,6 +10,8 @@ namespace BusinessLayer
     {
         static void Main(string[] args)
         {
+            Console.Out.WriteLine("Business Layer");
+
         }
     }
 }

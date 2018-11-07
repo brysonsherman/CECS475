@@ -18,6 +18,7 @@ namespace BusinessLayer
             _standardRepository = new StandardRepository();
             _studentRepository = new StudentRepository();
             _teacherRepository = new TeacherRepository();
+            _courseRepository = new CourseRepository();
 
         }
 
