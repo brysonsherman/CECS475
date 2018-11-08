@@ -17,7 +17,11 @@ namespace _475Lab6
             string Name = Console.ReadLine();
             switch (layerType)
             { 
-                
+                case LayerType.TEACHER:
+                    Teacher newTeacher = new Teacher() { TeacherName = Name };
+                    myBusinessLayer.AddTeacher(newTeacher);
+                    Console.WriteLine("Teacher: " + Name + " created.");
+                    break;
                 case LayerType.COURSE:
                     Console.WriteLine("Teacher Id:");
                     int Id = Int32.Parse(Console.ReadLine());
@@ -35,7 +39,21 @@ namespace _475Lab6
 
             switch (layerType)
             {
-                
+                case LayerType.TEACHER:
+                    foreach (var s in myBusinessLayer.getAllTeachers())
+                    {
+                        Console.WriteLine(s.TeacherId + " " + s.TeacherName);
+                    }
+                    Console.WriteLine("Enter Teacher ID: ");
+                    int NameTeacher = Int32.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter New Name For Teacher: ");
+                    myBusinessLayer.GetTeacherByID(NameTeacher).TeacherName = Console.ReadLine();
+                    myBusinessLayer.UpdateTeacher(myBusinessLayer.GetTeacherByID(NameTeacher));
+                    Console.WriteLine("Teacher name has been updated to:  " + myBusinessLayer.GetTeacherByID(NameTeacher).TeacherName);
+
+                    break;
+
                 case LayerType.COURSE:
                     foreach (var s in myBusinessLayer.GetAllCourses())
                     {
@@ -88,7 +106,16 @@ namespace _475Lab6
             int Id = Int32.Parse(Console.ReadLine());
             switch (layerType)
             {
-                
+                case LayerType.TEACHER:
+                    if (myBusinessLayer.GetTeacherByID(Id) == null)
+                        Console.WriteLine("No teacher by that ID or Name was found. Returning to main menu");
+                    else
+                    {
+                        Console.WriteLine("Teacher: " + myBusinessLayer.GetTeacherByID(Id).TeacherName + " has been deleted");
+                        myBusinessLayer.RemoveTeacher(myBusinessLayer.GetTeacherByID(Id));
+                    }
+                    break;
+
                 case LayerType.COURSE:
                     if (myBusinessLayer.GetCourseByID(Id) == null)
                         Console.WriteLine("No Course by that ID or Name was found. Returning to main menu");
@@ -106,11 +133,12 @@ namespace _475Lab6
         static void Main(string[] args)
         {
             int choice = -1;
+            bool exit = true;
             do
             {
                 Console.WriteLine
                    (
-                   "\n 0. Exit Program \n" +
+                   "\n0. Exit Program \n" +
                    "1. Add Teachers \n" +
                    "2. Update Teacher \n" +
                    "3. Delete Teacher \n" +
@@ -118,7 +146,7 @@ namespace _475Lab6
                    "5. Display Teacher's Courses by Teacher id \n" +
                    "6. Add Course \n" +
                    "7. Update Course \n" +
-                   "8. Delete Course \n " +
+                   "8. Delete Course \n" +
                    "9. Display all Courses\n"
                    );
                 try
@@ -135,13 +163,36 @@ namespace _475Lab6
                 switch (choice)
                 {
                     case 0:
+                        exit = false;
                         Environment.Exit(0);
+                        break;
+
+                    case 1:
+                        Add(myBusinessLayer, LayerType.TEACHER);
+                        break;
+
+                    case 2:
+                        Update(myBusinessLayer, LayerType.TEACHER);
+                        break;
+
+                    case 3:
+                        Delete(myBusinessLayer, LayerType.TEACHER);
                         break;
 
                     case 4:
                         foreach (var t in myBusinessLayer.GetAllTeachers())
                         {
                             Console.WriteLine(t.TeacherId + " " + t.TeacherName);
+                        }
+                        break;
+
+                    case 5:
+                        Console.WriteLine("Teacher Id:");
+                        int Id = Int32.Parse(Console.ReadLine());
+                        var coursePrint = myBusinessLayer.GetAllCourses().Where(t => t.TeacherId == Id);
+                        foreach (var course in coursePrint)
+                        {
+                            Console.WriteLine(course.CourseId + " " + course.CourseName + " ");
                         }
                         break;
 
@@ -166,7 +217,7 @@ namespace _475Lab6
                         break;
                 }
             }
-            while ((choice >= 0) & (choice < 10));
+            while (exit);
         }
 
         enum LayerType
