@@ -53,8 +53,10 @@ namespace FlickrViewer
          //Create a URL for invoking the Flickr web service's method flickr.photos.search.
         //with Key you get from the Flickr website,tag, tag_mode=all, per_page = 500 and 
         //privacy_filter=1. Use the inputTextBox.Text.Replace(" ", ",") for tag.
-         var flickrURL = string.Format("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key={0}&tags={1}&tag_mode=all&per_page=500&privacy_filter=1", KEY,
+         var flickrURL = string.Format("http://flickr.com/services/rest/?method=flickr.photos.search&api_key={0}&tags={1}&tag_mode=all&per_page=500&privacy_filter=1", KEY,
             inputTextBox.Text.Replace(" ", ","));
+
+
 
          imagesListBox.DataSource = null; // remove prior data source
          imagesListBox.Items.Clear(); // clear imagesListBox
@@ -67,8 +69,12 @@ namespace FlickrViewer
                 // the server. Assign the task returned from the method to flickrTask.
                 flickrTask = flickrClient.DownloadStringTaskAsync(flickrURL);
 
+
                 // await fickrTask then parse results with XDocument
-                XDocument flickrXML = XDocument.Parse(await flickrTask);
+                XDocument flickrDoc = XDocument.Parse(await flickrTask);
+
+                Console.WriteLine("It got here");
+
 
                 // Gather  from each photo element in the XML the id, title, secret, server, and farm attributes, then create an object class FlickResult using LINQ.
                 //Each FlickrResult contains:
@@ -77,29 +83,34 @@ namespace FlickrViewer
                 //The format of the URL for each image is specified at 
                 //http://www.flickr.com/services/api/misc.urls.html
                 var flickrPhotos =
-               from photo in flickrXML.Descendants( "photo" )
-               let id = photo.Attribute("id").Value
-               let title = photo.Attribute("title").Value
-               let secret = photo.Attribute("secret").Value
-               let server = photo.Attribute("server").Value
-               let farm = photo.Attribute("farm").Value
-               select new FlickrResult
+                from photo in flickrDoc.Descendants("photo")
+                let id = photo.Attribute("id").Value
+                let title = photo.Attribute("title").Value
+                let secret = photo.Attribute("secret").Value
+                let server = photo.Attribute("server").Value
+                let farm = photo.Attribute("farm").Value
+                select new FlickrResult
                {
                   Title = title,
                   URL = string.Format(
                      "http://farm{0}.staticflickr.com/{1}/{2}_{3}.jpg",
                      farm, server, id, secret)
                };
+
             imagesListBox.Items.Clear(); // clear imagesListBox
-            // set ListBox properties only if results were found
-            if ( flickrPhotos.Any() )
-            {//Invoke to ToList on the flickrPhotos LINQ query to convert it to list, then assign the result to the ListBox's DataSource property
-             //Set the ListBox's DisplayMember property to the Title property.
-               imagesListBox.DataSource = flickrPhotos.ToList();
-               imagesListBox.DisplayMember = "Title";
-            } // end if 
-            else // no matches were found
-               imagesListBox.Items.Add( "No matches" );
+                                         // set ListBox properties only if results were found
+                if (flickrPhotos.Any())
+                {//Invoke to ToList on the flickrPhotos LINQ query to convert it to list, then assign the result to the ListBox's DataSource property
+                 //Set the ListBox's DisplayMember property to the Title property.
+                    Console.WriteLine("It got some photos");
+                    imagesListBox.DataSource = flickrPhotos.ToList();
+                    imagesListBox.DisplayMember = "Title";
+                } // end if 
+                else
+                { // no matches were found
+                    Console.WriteLine("No matches");
+                    imagesListBox.Items.Add("No matches");
+                }
          } // end try
          catch ( WebException ) 
          {
@@ -119,15 +130,13 @@ namespace FlickrViewer
       {
          if ( imagesListBox.SelectedItem != null )
          {
-            string selectedURL =
-               ( ( FlickrResult ) imagesListBox.SelectedItem ).URL;
+            string selectedURL = ((FlickrResult) imagesListBox.SelectedItem).URL;
 
                 // use WebClient to get selected image's bytes asynchronously
                 //Create a WebClient object
                 WebClient imageClient = new WebClient();
                 //Invoke the the WeClient DownloadDataTaskAsync method to get byte array called imageBytes that contains the photo (from selectedURL) and await the results. 
-                byte[] imageBytes = await imageClient.DownloadDataTaskAsync(
-               selectedURL);
+                byte[] imageBytes = await imageClient.DownloadDataTaskAsync(selectedURL);
 
                 //Create a MemoryStream object from imagesBytes
                 MemoryStream memoryStream = new MemoryStream(imageBytes);
