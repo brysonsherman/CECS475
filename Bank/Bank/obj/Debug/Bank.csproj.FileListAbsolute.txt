@@ -1,0 +1,6 @@
+/Users/bryson.sherman/Projects/Bank/Bank/bin/Debug/Bank.dll
+/Users/bryson.sherman/Projects/Bank/Bank/bin/Debug/Bank.pdb
+/Users/bryson.sherman/Projects/Bank/Bank/obj/Debug/Bank.csprojAssemblyReference.cache
+/Users/bryson.sherman/Projects/Bank/Bank/obj/Debug/Bank.csproj.CoreCompileInputs.cache
+/Users/bryson.sherman/Projects/Bank/Bank/obj/Debug/Bank.dll
+/Users/bryson.sherman/Projects/Bank/Bank/obj/Debug/Bank.pdb
